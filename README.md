@@ -5,10 +5,18 @@ The dll works but it's still considered a development release
 
 # Dependencies
 [https://dev.mysql.com/downloads/connector/cpp/](https://dev.mysql.com/downloads/connector/cpp/)
+
 Select operating system: Microsoft Windows
+
 Select OS Version: X86 32-bit
+
 Download the non-debug zip
+
 libcrypto-1_1.dll
+
 libssl-1_1.dll
+
 [https://gnuwin32.sourceforge.net/downlinks/libiconv-bin-zip.php](https://gnuwin32.sourceforge.net/downlinks/libiconv-bin-zip.php)
+
 libiconv2.dll
+
