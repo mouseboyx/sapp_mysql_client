@@ -37,4 +37,6 @@ If you want UTF-8 database results that are returned to be auto converted from U
 These auto conversions will only work (to and from) or (from and to) both WINDOWS-1252 and UTF-8
 
 ## Multi-queries
-All of the functions can do multi queries, but the functions that return results don't currently have the capability to return results from multiple queries. I wouldn't perform multi-queries unless you understand what happens in the dll when you do.
+All of the functions can do multi queries, but the functions that return results don't currently have the capability to return results from multiple queries. I wouldn't perform multi-queries unless you understand what happens in the dll when you do. 
+
+Multi-queries would be like sending a single string "select * from foo;insert into bar (column_name) values ('value');select last_insert_id();" in one function call to the dll.
