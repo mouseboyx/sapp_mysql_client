@@ -4,6 +4,12 @@ Mysql client ffi library for the sapp plugin for Halo CE servers
 The dll works but it's still considered a development release
 
 ## Dependencies
+Visual C++ 2015 Redistributable x86 (Later versions may also be required)
+
+On linux: winetricks vcrun2015
+
+On windows google: Visual C++ 2015 Redistributable x86
+
 [https://dev.mysql.com/downloads/connector/cpp/](https://dev.mysql.com/downloads/connector/cpp/)
 
 Select operating system: Microsoft Windows
